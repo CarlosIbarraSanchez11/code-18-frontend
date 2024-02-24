@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Ubuntu";
+    /* Nombre de la fuente */
+    src: url(../assets/fonts/Ubuntu-Regular.ttf);
+    /* Donde esta el archivo */
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url(../assets/fonts/Ubuntu-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url(../assets/fonts/Ubuntu-Medium.ttf);
+    font-weight: 500;
+}

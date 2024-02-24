@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ubuntu", system-ui, sans-serif;
+}
+
+input,
+button {
+    font-family: "Ubuntu",
+        system-ui,
+        sans-serif;
+    ;
+}
+
+main {
+    height: 100vh;
+}
+
+/* form {
+    border: solid;
+} */
+
+.container {
+    height: 90vh;
+    overflow: auto;
+    background-color: #eef5ff;
+}
+
+.footer {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 20px;
+}
+
+.container-steps {
+    background: url("../assets/images/bg-sidebar-mobile.svg") no-repeat;
+    background-size: cover;
+    height: 20vh;
+    display: flex;
+    /* align-items: center; */
+    padding-top: 40px;
+    justify-content: center;
+}
+
+.container-steps>ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.container-steps>ul>li>button {
+    background-color: transparent;
+    color: #fff;
+    border: solid white;
+    padding: 10px;
+    border-radius: 50%;
+    width: 30px;
+    /* Ayuda a que tenga forma de circulo*/
+    height: 30px;
+    /* Ayuda a que tenga forma de circulo*/
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container-steps>ul>li>button:hover {
+    color: #000;
+    background-color: hsl(206, 94%, 87%);
+    border: none;
+}
+
+.container-info {
+    /* background-color: transparent; */
+    width: 100%;
+    /* margin: auto;
+    padding: 10px; */
+    /* border: solid; */
+    position: absolute;
+    top: 16%;
+}
+
+.title {
+    color: hsl(243, 100%, 18%);
+    margin-bottom: 15px;
+}
+
+.text {
+    color: hsl(231, 11%, 63%);
+    font-size: 16px;
+}
+
+.container-info>div {
+    /* border: solid rebeccapurple; */
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.footer>button {
+    color: #fff;
+    background-color: hsl(213, 96%, 18%);
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
