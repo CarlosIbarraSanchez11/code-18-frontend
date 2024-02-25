@@ -27,7 +27,8 @@
         background-position: center;
         flex-direction: column;
         gap: 35px;
-        padding: 60px;
+        padding: 40px;
+        width: 350px;
         color: #fff;
         border-radius: 14px;
         /* border: solid rebeccapurple; */
