@@ -1,1 +1,78 @@
-@media(min-width: 1280px) {}
+@media(min-width: 1280px) {
+    main {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #eef5ff;
+    }
+
+    .container {
+        height: auto;
+        display: flex;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 14px;
+        gap: 50px;
+    }
+
+    .container-steps {
+        display: none;
+    }
+
+    .container-menu-desktop {
+        display: flex;
+        background: url(../assets/images/bg-sidebar-desktop.svg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        flex-direction: column;
+        gap: 35px;
+        padding: 60px;
+        color: #fff;
+        border-radius: 14px;
+        /* border: solid rebeccapurple; */
+    }
+
+    .container-menu-desktop>div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .container-info {
+        /* border: solid black; */
+        display: block;
+        position: relative;
+        /* position: static; */
+        background-color: #fff;
+    }
+
+    .step-title {
+        font-size: 10px;
+        font-weight: 200;
+        display: block;
+    }
+
+    .step-info {
+        font-size: 12px;
+        font-weight: bold;
+        display: block;
+        width: 100%;
+        /* border: solid red; */
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .container-next-button-desktop {
+        display: flex !important;
+        /* border: solid black; */
+        align-items: end;
+        /* width: 100px; */
+    }
+
+    .container-next-button-desktop>button {
+        width: 100px;
+    }
+}
